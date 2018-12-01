@@ -45,6 +45,11 @@
     <Compile Include="2 - OCP\OCP.Solucao Extension Methods\DebitoContaInvestimento.cs" />
     <Compile Include="2 - OCP\OCP.Solucao Extension Methods\DebitoContaPoupanca.cs" />
     <Compile Include="2 - OCP\OCP.Solucao Extension Methods\DebitoContaCorrente.cs" />
+    <Compile Include="2 - OCP\OCP.Solucao Interface\ContaCorrente.cs" />
+    <Compile Include="2 - OCP\OCP.Solucao Interface\ContaInvestimento.cs" />
+    <Compile Include="2 - OCP\OCP.Solucao Interface\ContaPoupanca.cs" />
+    <Compile Include="2 - OCP\OCP.Solucao Interface\DebitoConta.cs" />
+    <Compile Include="2 - OCP\OCP.Solucao Interface\IConta.cs" />
     <Compile Include="2 - OCP\OCP.Violacao\DebitoConta.cs" />
     <Compile Include="2 - OCP\OCP.Violacao\TipoConta.cs" />
     <Compile Include="2 - OCP\OCP.Solucao\DebitoConta.cs" />
