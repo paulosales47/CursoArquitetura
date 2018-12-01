@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.SOLID", "Arquitetura\Arquitetura.SOLID.csproj", "{66591FF9-3126-443D-BDDD-089C17E3D063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{2DB39678-0BAC-4952-918D-3F77C98FD3D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{FDC0AA38-0BEB-4C6B-8BCF-34A91CB7AFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.DP", "Arquitetura.DP\Arquitetura.DP.csproj", "{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{B7B6AC62-2C4E-49AB-9492-D66B31A4C10A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.OOP", "Arquitetura.OOP\Arquitetura.OOP.csproj", "{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean Code", "Clean Code", "{E329CA5F-3C76-4FF0-8872-83E5CEE9544B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.CleanCode", "Arquitetura.Clean\Arquitetura.CleanCode.csproj", "{82FB503F-A030-453D-9FAB-B845E046C2A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI Avancado", "DI Avancado", "{C17140FF-164E-415A-92FD-107C93C930AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.DI", "Arquitetura.DI\Arquitetura.DI.csproj", "{A48807B5-F28F-45D2-81D6-DE703ECACF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66591FF9-3126-443D-BDDD-089C17E3D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66591FF9-3126-443D-BDDD-089C17E3D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66591FF9-3126-443D-BDDD-089C17E3D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66591FF9-3126-443D-BDDD-089C17E3D063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FB503F-A030-453D-9FAB-B845E046C2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FB503F-A030-453D-9FAB-B845E046C2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FB503F-A030-453D-9FAB-B845E046C2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FB503F-A030-453D-9FAB-B845E046C2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48807B5-F28F-45D2-81D6-DE703ECACF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48807B5-F28F-45D2-81D6-DE703ECACF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48807B5-F28F-45D2-81D6-DE703ECACF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48807B5-F28F-45D2-81D6-DE703ECACF83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66591FF9-3126-443D-BDDD-089C17E3D063} = {2DB39678-0BAC-4952-918D-3F77C98FD3D0}
+		{B2C9C781-894B-46B1-AA38-77B5D4FD2F9C} = {FDC0AA38-0BEB-4C6B-8BCF-34A91CB7AFF5}
+		{0B8F5E5F-7B8B-4B3C-BC37-46F041C6BF15} = {B7B6AC62-2C4E-49AB-9492-D66B31A4C10A}
+		{82FB503F-A030-453D-9FAB-B845E046C2A7} = {E329CA5F-3C76-4FF0-8872-83E5CEE9544B}
+		{A48807B5-F28F-45D2-81D6-DE703ECACF83} = {C17140FF-164E-415A-92FD-107C93C930AB}
+	EndGlobalSection
+EndGlobal
