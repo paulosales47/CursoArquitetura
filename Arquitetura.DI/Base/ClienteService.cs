@@ -6,10 +6,10 @@ namespace Arquitetura.DI.Base
     {
         private readonly IMensagem _mensagem;
         private readonly IClienteRepository _clienteRepository;
-
-        public ClienteService(IMensagem mensagem, IClienteRepository clienteRepository)
+        
+        public ClienteService(IMensagemFactory mensagemFactory, IClienteRepository clienteRepository)
         {
-            _mensagem = mensagem;
+            _mensagem = mensagemFactory.CreateNew("Email");
             _clienteRepository = clienteRepository;
         }
 
