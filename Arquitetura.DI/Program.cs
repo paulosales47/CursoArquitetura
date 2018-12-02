@@ -11,10 +11,6 @@ namespace Arquitetura.DI
         {
             Bootstrap.Start();
 
-            var mensagem = Bootstrap.Container.GetInstance<IMensagemFactory>();
-            var email = mensagem.CreateNew("Email");
-            var sms = mensagem.CreateNew("SMS");
-
             var clienteService = Bootstrap.Container.GetInstance<IClienteService>();
             clienteService.Adicionar();
         }
@@ -27,16 +23,11 @@ namespace Arquitetura.DI
         public static void Start()
         {
             Container = new Container();
-   
-            Container.RegisterInstance<IMensagemFactory>(new MensagemFactory
-            {
-                 {"Email", ()=> Container.GetInstance<Email>()  }
-                ,{"SMS", ()=> Container.GetInstance<SMS>()  }
-            });
-            
+
+            Container.Collection.Register<IMensagem>(typeof(Email), typeof(SMS));
             Container.Register<IClienteService, ClienteService>(Lifestyle.Transient);
             Container.Register<IClienteRepository, ClienteRepository>(Lifestyle.Transient);
-            
+
             Container.Verify();
         }
     }

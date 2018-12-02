@@ -1,4 +1,6 @@
 ﻿using Arquitetura.DI.Base.Interfaces;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Arquitetura.DI.Base
 {
@@ -7,9 +9,9 @@ namespace Arquitetura.DI.Base
         private readonly IMensagem _mensagem;
         private readonly IClienteRepository _clienteRepository;
         
-        public ClienteService(IMensagemFactory mensagemFactory, IClienteRepository clienteRepository)
+        public ClienteService(IEnumerable<IMensagem> mensagens, IClienteRepository clienteRepository)
         {
-            _mensagem = mensagemFactory.CreateNew("Email");
+            _mensagem = mensagens.FirstOrDefault(mensagem => mensagem.GetType().Name.Equals("Email"));
             _clienteRepository = clienteRepository;
         }
 
